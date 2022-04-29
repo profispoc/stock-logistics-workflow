@@ -9,5 +9,5 @@
     "application": False,
     "installable": True,
     "depends": ["stock"],
-    "data": ["views/product_template.xml", "views/stock_move_line_views.xml"],
+    "data": ["views/product_template_views.xml", "views/stock_move_line_views.xml"],
 }
