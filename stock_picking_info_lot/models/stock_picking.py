@@ -13,7 +13,7 @@ class StockPicking(models.Model):
             )
             if lines_missing_lotinfo:
                 raise exceptions.UserError(
-                    _("Missing Lot Infor for Products %s.")
+                    _("Missing Lot Info for Products %s.")
                     % ", ".join(lines_missing_lotinfo.product_id.mapped("display_name"))
                 )
 
